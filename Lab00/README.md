@@ -5,7 +5,7 @@ E24056645、
 E24053061、
 E24056849
 ### FSM Diagram #
-![FSM](https://github.com/FPGAgroup5/test/blob/master/FPGA_HW0_FSM.jpg)
+![FSM](https://github.com/FPGAgroup5/test/blob/master/Lab00%20images/FPGA_HW0_FSM.jpg)
 ### 設計概念說明 #
 　　先將整個圖形平移使Vertex 1(左下角的點)平移至原點，再利用截距式找出平移後斜邊的直線方程式，接著從原點(0,0)開始由左而右逐點判斷是否超出邊界。若超出邊界，則再繼續從(0,1)由左而右逐點判斷是否超出邊界，若超出邊界，則再繼續從(0,2)...，不斷重複，直到Y軸上一點(0,y)亦超出邊界。
 
@@ -17,9 +17,9 @@ E24056849
 
 先將圖形平移則是為了能夠簡單快速地找出三角形斜邊的直線方程式
 ### 模擬結果圖
-![result](assets/markdown-img-paste-20190921_193145_79.png)
+![result](https://github.com/FPGAgroup5/test/blob/master/Lab00%20images/result.jpg)
 ### 模擬波型圖
 cycle1
-![wave1](assets/markdown-img-paste-20190921_193248_32.png)
+![wave1](https://github.com/FPGAgroup5/test/blob/master/Lab00%20images/wave%201.jpg)
 cycle2
-![wave2](assets/markdown-img-paste-20190921_193302_23.png)
+![wave2](https://github.com/FPGAgroup5/test/blob/master/Lab00%20images/wave%202.jpg)
